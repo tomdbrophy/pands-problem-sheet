@@ -6,8 +6,6 @@
 # User should enter number to be solved.
 # How close the result needs to be can be set in the code or could be also user entered.
 
-#def sqrt (number_to_solve, approximation_accuracy):
-
 
 
 def sqrt (number_to_solve, resolution = 0.00000001):
@@ -17,5 +15,5 @@ def sqrt (number_to_solve, resolution = 0.00000001):
     return x    
 
 val = float(input('Please enter a positive number: '))
-answer = sqrt(val)
-print(answer)
+answer = round(sqrt(val), 1)
+print(f'The square root of {val} is approx. {answer}.')

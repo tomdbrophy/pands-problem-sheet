@@ -3,7 +3,7 @@
 # Author: Tom Brophy
 # Info on command line arguments found here: https://realpython.com/python-command-line-arguments/
 # info on searching text files found here: https://stackoverflow.com/questions/4940032/how-to-search-for-a-string-in-text-files
-# Info on count() method found on w£ schools
+# Info on count() method found on w3 schools
 # Info on f.readlines() found here: https://www.w3schools.com/python/ref_file_readlines.asp
 
 import sys
