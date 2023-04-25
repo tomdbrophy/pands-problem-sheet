@@ -3,6 +3,8 @@
 # If integer is even, halves number.
 # If integer is odd multiply by 3 and add 1.
 # Author: Tom Brophy
+# Information on output formatting found here: https://www.w3schools.com/python/ref_string_join.asp
+
 
 values = []
 value = int(input('Please enter a positive integer: '))

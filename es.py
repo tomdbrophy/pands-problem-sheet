@@ -6,7 +6,10 @@
 # Info on count() method found on w£ schools
 # Info on f.readlines() found here: https://www.w3schools.com/python/ref_file_readlines.asp
 
-FILENAME = 'dummy.txt'
+import sys
+
+#FILENAME = 'dummy.txt'
+FILENAME = sys.argv[1]
 
 def count_e():
     e_number = 0
@@ -14,6 +17,7 @@ def count_e():
         lines = f.readlines()
         for line in lines:
             es = line.count('e')
+            es += line.count('E')
             e_number += es
     return e_number        
 
